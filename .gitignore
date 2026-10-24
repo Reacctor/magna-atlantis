@@ -1,4 +1,6 @@
 reference/
+art-src/
+art-staging/
 *.zip
 .DS_Store
 Thumbs.db

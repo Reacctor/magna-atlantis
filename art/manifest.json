@@ -12,19 +12,19 @@
       ],
       "hotspots": {
         "window": {
-          "rect": [470, 70, 300, 220],
+          "rect": [340, 56, 500, 215],
           "shows": "big window with rain running down the glass and grey-green city roofs outside"
         },
         "bed": {
-          "rect": [40, 330, 330, 170],
+          "rect": [0, 130, 250, 270],
           "shows": "small bed with a panda blanket"
         },
         "toys": {
-          "rect": [440, 420, 340, 170],
+          "rect": [330, 340, 520, 170],
           "shows": "a messy pile of toys on the rug: teddy, balls, blocks, a toy plane"
         },
         "shelf": {
-          "rect": [820, 100, 240, 230],
+          "rect": [1050, 230, 230, 330],
           "shows": "low wooden shelf with empty paint jars and loose paint tubes of many colours"
         }
       }
@@ -37,23 +37,23 @@
       "characterSpots": [],
       "hotspots": {
         "window": {
-          "rect": [150, 80, 200, 190],
+          "rect": [540, 56, 170, 150],
           "shows": "round attic window with a sunbeam"
         },
         "hatch": {
-          "rect": [960, 200, 240, 170],
+          "rect": [950, 200, 290, 200],
           "shows": "open floor hatch with the top of a ladder, light coming up from below"
         },
         "lamp": {
-          "rect": [560, 60, 130, 150],
+          "rect": [990, 56, 120, 90],
           "shows": "old unlit light bulb hanging from a roof beam on a cord"
         },
         "chest": {
-          "rect": [500, 380, 300, 200],
+          "rect": [500, 200, 310, 200],
           "shows": "big old sailor's sea chest with an anchor carved on the lid and a keyhole"
         },
         "pieces": {
-          "rect": [860, 410, 250, 150],
+          "rect": [820, 420, 240, 140],
           "shows": "a small wooden crate with torn pieces of an old paper map peeking out"
         }
       }
@@ -69,15 +69,15 @@
       ],
       "hotspots": {
         "lake": {
-          "rect": [430, 430, 400, 150],
+          "rect": [300, 380, 600, 110],
           "shows": "calm pond with ducks and reflections"
         },
         "tree": {
-          "rect": [540, 60, 320, 280],
+          "rect": [30, 56, 540, 330],
           "shows": "big flowering pink ipê tree with three cheeky little monkeys hiding in the branches"
         },
         "sign": {
-          "rect": [890, 120, 160, 170],
+          "rect": [960, 210, 110, 220],
           "shows": "wooden trail sign with picture arrows (no readable text)"
         }
       }
@@ -94,19 +94,19 @@
       ],
       "hotspots": {
         "board": {
-          "rect": [420, 70, 440, 150],
+          "rect": [500, 56, 400, 135],
           "shows": "departures board with flight rows and little plane icons"
         },
         "desk": {
-          "rect": [560, 240, 260, 150],
+          "rect": [500, 215, 400, 170],
           "shows": "check-in desk with colourful boarding passes fanned out on it"
         },
         "belt": {
-          "rect": [430, 420, 340, 170],
+          "rect": [930, 340, 350, 150],
           "shows": "baggage conveyor belt with a few colourful suitcases"
         },
         "gate": {
-          "rect": [40, 110, 330, 240],
+          "rect": [16, 76, 360, 270],
           "shows": "boarding gate with a glass door and a jet bridge, a plane visible behind"
         }
       }
@@ -122,19 +122,19 @@
       ],
       "hotspots": {
         "window": {
-          "rect": [170, 70, 220, 200],
+          "rect": [430, 56, 180, 290],
           "shows": "window with lace curtains, snowflakes and lit windows of Moscow buildings outside"
         },
         "samovar": {
-          "rect": [760, 320, 120, 140],
+          "rect": [380, 150, 90, 110],
           "shows": "shiny brass samovar on the table with a teacup"
         },
         "stove": {
-          "rect": [470, 230, 260, 250],
+          "rect": [20, 250, 200, 230],
           "shows": "old white stove with a frying pan, a bowl of batter and a plate of blini"
         },
         "shelf": {
-          "rect": [790, 70, 260, 170],
+          "rect": [130, 56, 120, 160],
           "shows": "high bookshelf; on the top shelf an old leather family diary with a ribbon"
         }
       }
@@ -150,19 +150,19 @@
       ],
       "hotspots": {
         "basil": {
-          "rect": [460, 60, 340, 240],
+          "rect": [520, 90, 290, 270],
           "shows": "St Basil's Cathedral with its striped, colourful onion domes under snow"
         },
         "gum": {
-          "rect": [40, 90, 330, 190],
+          "rect": [4, 56, 360, 330],
           "shows": "GUM department store facade with garlands of lights"
         },
         "steps": {
-          "rect": [440, 470, 380, 140],
+          "rect": [400, 430, 480, 150],
           "shows": "a trail of large boot prints in the snow crossing the square"
         },
         "arch": {
-          "rect": [1000, 110, 240, 190],
+          "rect": [980, 56, 290, 250],
           "shows": "a red brick archway at the far side of the square leading to a snowy park"
         }
       }
@@ -179,15 +179,15 @@
       ],
       "hotspots": {
         "trees": {
-          "rect": [40, 80, 330, 220],
+          "rect": [16, 56, 200, 290],
           "shows": "snowy fir trees with a lantern"
         },
         "lid": {
-          "rect": [500, 110, 300, 160],
+          "rect": [290, 56, 280, 110],
           "shows": "heavy round lid of ice on top of the fountain, with icicles in a repeating pattern"
         },
         "keyhole": {
-          "rect": [780, 430, 130, 120],
+          "rect": [330, 250, 200, 110],
           "shows": "a small keyhole shape in the ice at the base of the fountain, glowing faintly"
         }
       }
@@ -203,19 +203,19 @@
       ],
       "hotspots": {
         "lamps": {
-          "rect": [60, 60, 300, 170],
+          "rect": [424, 56, 110, 120],
           "shows": "ornate bronze chandeliers"
         },
         "mosaic": {
-          "rect": [430, 60, 420, 180],
+          "rect": [160, 56, 250, 90],
           "shows": "arched ceiling mosaic with pictures of an owl, a fox, a moon and stars"
         },
         "metromap": {
-          "rect": [880, 120, 220, 200],
+          "rect": [24, 68, 190, 270],
           "shows": "colourful metro line map on the wall (simple coloured lines and dots, no readable text)"
         },
         "turnstile": {
-          "rect": [450, 380, 300, 200],
+          "rect": [660, 210, 320, 110],
           "shows": "row of old metro turnstiles with picture tiles"
         }
       }
@@ -230,19 +230,19 @@
       ],
       "hotspots": {
         "glass": {
-          "rect": [1110, 70, 150, 220],
+          "rect": [30, 56, 150, 330],
           "shows": "tall stained-glass window with a stork"
         },
         "gears": {
-          "rect": [60, 90, 290, 200],
+          "rect": [170, 70, 210, 270],
           "shows": "big brass clock gears and cogs, some visible behind a little door"
         },
         "figures": {
-          "rect": [850, 90, 240, 220],
+          "rect": [690, 70, 100, 220],
           "shows": "row of little carved wooden figures (a knight, a lady, a rooster) on a balcony of the clock"
         },
         "dial": {
-          "rect": [480, 80, 320, 320],
+          "rect": [390, 90, 290, 300],
           "shows": "big round painted clock dial with sun, moon and star symbols"
         }
       }
@@ -257,23 +257,23 @@
       ],
       "hotspots": {
         "flowers": {
-          "rect": [880, 300, 200, 110],
+          "rect": [870, 280, 140, 120],
           "shows": "window boxes full of red geraniums"
         },
         "bakery": {
-          "rect": [60, 100, 300, 210],
+          "rect": [16, 150, 210, 300],
           "shows": "bakery shop window with pretzels and a pretzel-shaped sign"
         },
         "canal": {
-          "rect": [420, 470, 520, 140],
+          "rect": [350, 430, 650, 170],
           "shows": "calm canal water with reflections, too wide to step over"
         },
         "nest": {
-          "rect": [880, 60, 230, 170],
+          "rect": [1000, 56, 110, 90],
           "shows": "big stork nest on a chimney with a stork and something paper sticking out"
         },
         "bench": {
-          "rect": [560, 300, 240, 130],
+          "rect": [1150, 400, 120, 80],
           "shows": "wooden bench on the far bank of the canal"
         }
       }
@@ -289,15 +289,15 @@
       ],
       "hotspots": {
         "bells": {
-          "rect": [520, 60, 240, 220],
+          "rect": [724, 56, 120, 190],
           "shows": "the belfry with a row of bronze bells of different sizes"
         },
         "stall": {
-          "rect": [70, 130, 300, 200],
+          "rect": [24, 290, 270, 270],
           "shows": "market stall with waffles, apples, cheese and flowers"
         },
         "door": {
-          "rect": [570, 330, 200, 250],
+          "rect": [700, 420, 160, 130],
           "shows": "big carved wooden door of the town hall"
         }
       }
@@ -313,19 +313,19 @@
       ],
       "hotspots": {
         "case": {
-          "rect": [60, 140, 230, 180],
+          "rect": [12, 150, 220, 300],
           "shows": "locked glass display case with a little magnifying glass inside"
         },
         "tapestry": {
-          "rect": [380, 80, 500, 300],
+          "rect": [330, 56, 500, 340],
           "shows": "large medieval tapestry with a sailing ship, waves and a golden compass with three rings"
         },
         "border": {
-          "rect": [380, 390, 500, 90],
+          "rect": [370, 390, 460, 80],
           "shows": "decorated lower border of the tapestry with a repeating pattern of flowers and leaves"
         },
         "tripod": {
-          "rect": [880, 360, 160, 230],
+          "rect": [860, 330, 100, 200],
           "shows": "old wooden photo camera on a tripod"
         }
       }
@@ -341,19 +341,19 @@
       ],
       "hotspots": {
         "tiles": {
-          "rect": [880, 80, 260, 160],
+          "rect": [430, 70, 130, 130],
           "shows": "wall of blue and green patterned zellige tiles"
         },
         "tree": {
-          "rect": [430, 60, 300, 260],
+          "rect": [760, 56, 240, 250],
           "shows": "orange tree with oranges and a few other fruits hanging in it"
         },
         "jars": {
-          "rect": [460, 400, 300, 190],
+          "rect": [770, 270, 220, 110],
           "shows": "four clay jars of clearly different sizes on the floor"
         },
         "gate": {
-          "rect": [40, 110, 260, 320],
+          "rect": [16, 70, 170, 290],
           "shows": "arched blue wooden gate with iron studs"
         }
       }
@@ -369,19 +369,19 @@
       ],
       "hotspots": {
         "laundry": {
-          "rect": [430, 70, 400, 160],
+          "rect": [400, 56, 440, 90],
           "shows": "laundry line across the alley with colourful clothes: a shirt, socks, a dress, trousers"
         },
         "door": {
-          "rect": [880, 200, 190, 240],
+          "rect": [140, 150, 70, 200],
           "shows": "small green door with a brass hook hanging on it"
         },
         "stairs": {
-          "rect": [470, 300, 340, 290],
+          "rect": [360, 150, 170, 340],
           "shows": "steep white stone stairs, a few steps cracked"
         },
         "roof": {
-          "rect": [1060, 60, 200, 170],
+          "rect": [800, 70, 220, 130],
           "shows": "edge of a flat white roof high up with a view of the sea"
         }
       }
@@ -396,19 +396,19 @@
       ],
       "hotspots": {
         "palm": {
-          "rect": [40, 60, 270, 260],
+          "rect": [50, 56, 210, 270],
           "shows": "date palm tree with dates"
         },
         "sundial": {
-          "rect": [450, 380, 270, 200],
+          "rect": [350, 268, 210, 110],
           "shows": "round stone sundial with a pointer and engraved sun symbols"
         },
         "well": {
-          "rect": [780, 260, 230, 300],
+          "rect": [840, 250, 170, 120],
           "shows": "old round stone well with a wooden lid made of tiles"
         },
         "bucket": {
-          "rect": [480, 150, 200, 150],
+          "rect": [880, 150, 90, 100],
           "shows": "wooden frame above the well with a rope and a bucket"
         }
       }
@@ -428,11 +428,11 @@
       ],
       "hotspots": {
         "grill": {
-          "rect": [40, 100, 320, 200],
+          "rect": [40, 300, 140, 130],
           "shows": "khorovats barbecue grill with skewers and a little smoke"
         },
         "garden": {
-          "rect": [420, 70, 400, 250],
+          "rect": [190, 310, 400, 90],
           "shows": "small vineyard garden with green hedges forming paths like a maze"
         }
       }
@@ -448,19 +448,19 @@
       ],
       "hotspots": {
         "cat": {
-          "rect": [1100, 130, 160, 200],
+          "rect": [176, 290, 120, 160],
           "shows": "big round funny bronze sculpture of a fat cat"
         },
         "flowers": {
-          "rect": [420, 330, 380, 240],
+          "rect": [400, 330, 260, 140],
           "shows": "terraced flower beds in a grid of squares with red, yellow and blue flowers"
         },
         "clock": {
-          "rect": [860, 60, 200, 240],
+          "rect": [1170, 56, 105, 250],
           "shows": "tall clock tower with a big round clock face"
         },
         "drawing": {
-          "rect": [560, 90, 170, 140],
+          "rect": [896, 250, 120, 80],
           "shows": "a child's crayon drawing on paper caught on a bush"
         }
       }
@@ -477,19 +477,19 @@
       ],
       "hotspots": {
         "sign": {
-          "rect": [420, 110, 150, 230],
+          "rect": [60, 70, 110, 230],
           "shows": "wooden signpost with picture arrows, half covered in snow"
         },
         "tracks": {
-          "rect": [600, 470, 360, 120],
+          "rect": [360, 290, 250, 100],
           "shows": "a line of huge round furry footprints in the snow"
         },
         "stream": {
-          "rect": [640, 320, 330, 120],
+          "rect": [0, 350, 500, 160],
           "shows": "fast mountain stream with stones, too wide to jump"
         },
         "rock": {
-          "rect": [960, 110, 260, 280],
+          "rect": [800, 110, 320, 280],
           "shows": "big snowy boulders blocking a dark cave entrance"
         }
       }
@@ -505,15 +505,15 @@
       ],
       "hotspots": {
         "paintings": {
-          "rect": [70, 80, 300, 200],
+          "rect": [370, 56, 260, 150],
           "shows": "simple wall paintings scratched in the ice: a yeti, pancakes, a sun, a dog"
         },
         "clock": {
-          "rect": [460, 70, 210, 210],
+          "rect": [210, 200, 120, 100],
           "shows": "round clock made of icicles with big hands"
         },
         "basket": {
-          "rect": [420, 400, 250, 180],
+          "rect": [30, 200, 120, 110],
           "shows": "wicker basket full of colourful yarn balls and knitting needles"
         }
       }
@@ -531,15 +531,15 @@
       ],
       "hotspots": {
         "umbrella": {
-          "rect": [40, 70, 300, 200],
+          "rect": [16, 56, 210, 150],
           "shows": "striped sun umbrella with a lounger"
         },
         "juice": {
-          "rect": [520, 240, 280, 120],
+          "rect": [1096, 316, 180, 80],
           "shows": "wooden terrace floor with a spilled orange juice puddle and a tipped glass"
         },
         "pool": {
-          "rect": [450, 420, 400, 170],
+          "rect": [356, 416, 500, 160],
           "shows": "clear turquoise swimming pool; shells and a rolled paper glint at the bottom"
         }
       }
@@ -555,19 +555,19 @@
       ],
       "hotspots": {
         "buddha": {
-          "rect": [420, 60, 400, 220],
+          "rect": [400, 56, 220, 220],
           "shows": "the huge calm white marble Buddha statue"
         },
         "stall": {
-          "rect": [60, 120, 300, 200],
+          "rect": [4, 96, 270, 210],
           "shows": "fruit stall with bananas, mangoes, coconuts and a hanging weighing scale"
         },
         "monkeys": {
-          "rect": [480, 330, 320, 200],
+          "rect": [600, 296, 220, 110],
           "shows": "stone railing with four playful monkeys and a pile of coconuts"
         },
         "bell": {
-          "rect": [860, 80, 210, 210],
+          "rect": [1100, 116, 170, 220],
           "shows": "big bronze temple bell hanging on a wooden frame"
         }
       }
@@ -583,19 +583,19 @@
       ],
       "hotspots": {
         "speedboat": {
-          "rect": [40, 290, 300, 110],
+          "rect": [60, 360, 220, 80],
           "shows": "a purple speedboat with a top-hat flag far away on the water"
         },
         "boat": {
-          "rect": [420, 400, 420, 190],
+          "rect": [580, 330, 270, 130],
           "shows": "colourful Thai long-tail boat with garlands, moored at the pier"
         },
         "wall": {
-          "rect": [880, 90, 250, 220],
+          "rect": [1100, 56, 180, 330],
           "shows": "rock wall of a sea cave with shells pressed into it in a grid"
         },
         "shell": {
-          "rect": [650, 160, 160, 140],
+          "rect": [900, 90, 200, 170],
           "shows": "a giant open clam shell in a cave niche, glowing softly"
         }
       }
@@ -610,15 +610,15 @@
       ],
       "hotspots": {
         "lanterns": {
-          "rect": [40, 70, 340, 150],
+          "rect": [76, 56, 230, 80],
           "shows": "strings of red paper lanterns"
         },
         "oil": {
-          "rect": [880, 160, 260, 220],
+          "rect": [1056, 110, 220, 230],
           "shows": "tool stall with little oil cans with price tags made of symbols"
         },
         "mirrors": {
-          "rect": [420, 110, 250, 220],
+          "rect": [56, 110, 170, 130],
           "shows": "stall full of little round toy mirrors"
         }
       }
@@ -634,23 +634,23 @@
       ],
       "hotspots": {
         "toys": {
-          "rect": [40, 80, 320, 170],
+          "rect": [284, 276, 720, 100],
           "shows": "stacks of shiny unbreakable toys in boxes, all locked with tiny padlocks"
         },
         "belt": {
-          "rect": [420, 330, 420, 200],
+          "rect": [300, 376, 700, 120],
           "shows": "conveyor belt carrying toys in growing groups"
         },
         "panel": {
-          "rect": [900, 140, 220, 220],
+          "rect": [1064, 276, 210, 230],
           "shows": "control panel with a grid of picture buttons and levers"
         },
         "vent": {
-          "rect": [60, 300, 200, 130],
+          "rect": [4, 456, 110, 100],
           "shows": "small air vent grate low on the wall, just child-sized"
         },
         "safe": {
-          "rect": [560, 80, 200, 180],
+          "rect": [804, 56, 250, 130],
           "shows": "big round purple safe with a dial, on a platform"
         }
       }
@@ -663,23 +663,23 @@
       "characterSpots": [],
       "hotspots": {
         "towers": {
-          "rect": [880, 380, 300, 200],
+          "rect": [990, 56, 130, 290],
           "shows": "view down onto glittering city lights and the other tower"
         },
         "window": {
-          "rect": [430, 70, 380, 230],
+          "rect": [30, 56, 260, 330],
           "shows": "big window with many lit windows of skyscrapers outside"
         },
         "plaque": {
-          "rect": [880, 170, 210, 150],
+          "rect": [1160, 80, 100, 130],
           "shows": "bronze plaque with engraved symbols"
         },
         "bridge": {
-          "rect": [60, 110, 300, 200],
+          "rect": [540, 180, 180, 120],
           "shows": "the end of the skybridge with a door to the other tower"
         },
         "pedestal": {
-          "rect": [540, 380, 220, 200],
+          "rect": [548, 388, 130, 130],
           "shows": "round stone pedestal with a disc-shaped hollow on top"
         }
       }
@@ -694,19 +694,19 @@
       ],
       "hotspots": {
         "statue": {
-          "rect": [1080, 60, 180, 280],
+          "rect": [896, 56, 170, 450],
           "shows": "the giant golden statue"
         },
         "stall": {
-          "rect": [60, 120, 300, 200],
+          "rect": [16, 330, 210, 210],
           "shows": "stall with bunches of bananas"
         },
         "stairs": {
-          "rect": [430, 60, 380, 330],
+          "rect": [456, 110, 360, 340],
           "shows": "rainbow-coloured stairs climbing to a big dark cave mouth"
         },
         "king": {
-          "rect": [860, 160, 200, 200],
+          "rect": [520, 220, 120, 110],
           "shows": "a big old monkey with a leaf crown sitting on a rock, holding a shiny bronze compass"
         }
       }
@@ -722,19 +722,19 @@
       ],
       "hotspots": {
         "screens": {
-          "rect": [880, 60, 360, 110],
+          "rect": [364, 56, 840, 280],
           "shows": "giant video screens with cute animals"
         },
         "tourists": {
-          "rect": [420, 260, 420, 250],
+          "rect": [440, 380, 500, 120],
           "shows": "group of three tourists in big hats of different colours, one with a suspicious moustache"
         },
         "machine": {
-          "rect": [880, 190, 200, 200],
+          "rect": [1160, 330, 120, 140],
           "shows": "ticket machine with big picture buttons"
         },
         "station": {
-          "rect": [40, 100, 300, 250],
+          "rect": [4, 190, 270, 270],
           "shows": "station entrance with a train symbol"
         }
       }
@@ -750,27 +750,27 @@
       ],
       "hotspots": {
         "dragon": {
-          "rect": [40, 90, 320, 200],
+          "rect": [8, 56, 350, 230],
           "shows": "a giant ice dragon sculpture"
         },
         "lanterns": {
-          "rect": [400, 210, 360, 150],
+          "rect": [28, 350, 170, 120],
           "shows": "nine ice lanterns in a 3x3 group, some lit, some dark"
         },
         "path": {
-          "rect": [420, 420, 380, 170],
+          "rect": [390, 430, 500, 160],
           "shows": "snowy path with four stops: ice dragon, snowman, ice slide, lantern gate"
         },
         "blocks": {
-          "rect": [820, 380, 200, 200],
+          "rect": [790, 350, 250, 120],
           "shows": "carved snow blocks with symbols in a grid"
         },
         "waterfall": {
-          "rect": [1040, 60, 200, 260],
+          "rect": [1028, 56, 250, 250],
           "shows": "waterfall flowing down the side of the ice castle"
         },
         "altar": {
-          "rect": [560, 60, 200, 130],
+          "rect": [500, 56, 140, 70],
           "shows": "small round stone altar on top of the ice castle with star marks"
         }
       }
@@ -793,23 +793,23 @@
       ],
       "hotspots": {
         "hotels": {
-          "rect": [430, 230, 300, 100],
+          "rect": [216, 56, 480, 150],
           "shows": "row of pastel art-deco hotels"
         },
         "wind": {
-          "rect": [430, 60, 380, 160],
+          "rect": [700, 56, 400, 120],
           "shows": "open sky over the sea with wind swirls and clouds"
         },
         "tower": {
-          "rect": [40, 90, 260, 250],
+          "rect": [76, 150, 150, 210],
           "shows": "colourful lifeguard tower"
         },
         "pier": {
-          "rect": [980, 420, 260, 170],
+          "rect": [1050, 280, 230, 110],
           "shows": "long wooden pier going out to sea"
         },
         "seaplane": {
-          "rect": [860, 180, 330, 160],
+          "rect": [950, 340, 160, 110],
           "shows": "purple seaplane with a top-hat logo floating on the water"
         }
       }
@@ -827,27 +827,27 @@
       ],
       "hotspots": {
         "fish": {
-          "rect": [40, 70, 320, 180],
+          "rect": [40, 70, 170, 210],
           "shows": "colourful fish and a turtle swimming outside the glass dome"
         },
         "gate": {
-          "rect": [380, 70, 400, 300],
+          "rect": [404, 70, 400, 440],
           "shows": "huge round bronze gate with three rotating rings marked with sun, moon and star symbols, golden light glowing behind it"
         },
         "water": {
-          "rect": [380, 430, 480, 150],
+          "rect": [300, 520, 700, 110],
           "shows": "sea water flooding across the floor of the hall"
         },
         "lamps": {
-          "rect": [820, 70, 220, 170],
+          "rect": [1060, 110, 110, 150],
           "shows": "nine golden lamps in a 3x3 group on the wall"
         },
         "pillars": {
-          "rect": [800, 260, 190, 160],
+          "rect": [860, 70, 130, 400],
           "shows": "four carved pillars with pictures: a fish, a shell, a crown, a wave"
         },
         "light": {
-          "rect": [480, 100, 260, 230],
+          "rect": [230, 90, 160, 160],
           "shows": "a glowing ball of golden light floating in the hall behind the gate"
         }
       }

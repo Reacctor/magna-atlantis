@@ -90,19 +90,19 @@ const COMBOS = [
 
 // Places for the world map (stage units on an equirectangular 1280x720 map).
 const CITIES = {
-  sp:         { x: 474, y: 454 },
-  moscow:     { x: 774, y: 137 },
-  strasbourg: { x: 668, y: 166 },
-  oudenaarde: { x: 653, y: 152 },
-  algeria:    { x: 651, y: 213 },
-  yerevan:    { x: 798, y: 199 },
-  phuket:     { x: 990, y: 328 },
-  shenzhen:   { x: 1045, y: 270 },
-  kl:         { x: 1002, y: 348 },
-  tokyo:      { x: 1137, y: 217 },
-  hokkaido:   { x: 1142, y: 186 },
-  miami:      { x: 355, y: 257 },
-  atlantis:   { x: 410, y: 231 },
+  sp:         { x: 418, y: 470 },
+  moscow:     { x: 745, y: 125 },
+  strasbourg: { x: 640, y: 160 },
+  oudenaarde: { x: 628, y: 148 },
+  algeria:    { x: 626, y: 215 },
+  yerevan:    { x: 770, y: 195 },
+  phuket:     { x: 960, y: 330 },
+  shenzhen:   { x: 1010, y: 275 },
+  kl:         { x: 975, y: 356 },
+  tokyo:      { x: 1110, y: 225 },
+  hokkaido:   { x: 1120, y: 188 },
+  miami:      { x: 300, y: 255 },
+  atlantis:   { x: 352, y: 235 },
 };
 
 const ACTS = { 1: [1, 4], 2: [5, 8], 3: [9, 12], 4: [13, 15], 5: [16, 19], 6: [20, 30] };

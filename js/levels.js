@@ -316,7 +316,7 @@ const LEVELS = [
   { n: 21, tier: 5, city: 'phuket', scene: 'level21_buddha',
     cast: [{ id: 'dog_mango', x: 1000 }, { id: 'timosha', x: 1150 }],
     hs: [
-      { id: 'buddha', r: [420, 50, 400, 230], decor: true },
+      { id: 'buddha', r: [420, 60, 400, 220], decor: true },
       { id: 'timosha', ch: 'timosha', decor: true },
       { id: 'mango', ch: 'dog_mango' },
       { id: 'stall', r: [60, 120, 300, 200], need: ['mango'], puzzle: 'scale', theme: 'fruit', give: ['bananas'] },
@@ -368,7 +368,7 @@ const LEVELS = [
     hs: [
       { id: 'statue', r: [1080, 60, 180, 280], decor: true },
       { id: 'feijao', ch: 'dog_feijao' },
-      { id: 'stall', r: [60, 120, 300, 200], need: ['feijao'], puzzle: 'pairs', give: ['bananas'] },
+      { id: 'stall', r: [60, 120, 300, 200], need: ['feijao'], puzzle: 'pairs', theme: 'bananas', give: ['bananas'] },
       { id: 'stairs', r: [430, 60, 380, 330], need: ['stall'], puzzle: 'maze7', theme: 'cave' },
       { id: 'king', r: [860, 160, 200, 200], need: ['stairs'], item: 'bananas', give: ['compass_full'], goal: true },
     ] },
@@ -409,7 +409,7 @@ const LEVELS = [
       { id: 'karkusha', ch: 'karkusha', decor: true },
       { id: 'dogs', ch: 'dog_feijao', decor: true },
       { id: 'wind', r: [430, 60, 380, 160], hero: 'magna' },
-      { id: 'tower', r: [40, 90, 260, 250], need: ['wind'], item: 'bone_whistle', keep: true, puzzle: 'pairs' },
+      { id: 'tower', r: [40, 90, 260, 250], need: ['wind'], item: 'bone_whistle', keep: true, puzzle: 'pairs', theme: 'ears' },
       { id: 'yeti', ch: 'yeti', need: ['tower'], puzzle: 'who', theme: 'dogs' },
       { id: 'pier', r: [980, 420, 260, 170], need: ['yeti'], puzzle: 'maze7', theme: 'beach' },
       { id: 'seaplane', r: [860, 180, 330, 160], need: ['pier'], give: ['compass_full'], goal: true },

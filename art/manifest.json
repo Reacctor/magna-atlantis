@@ -555,7 +555,7 @@
       ],
       "hotspots": {
         "buddha": {
-          "rect": [420, 50, 400, 230],
+          "rect": [420, 60, 400, 220],
           "shows": "the huge calm white marble Buddha statue"
         },
         "stall": {

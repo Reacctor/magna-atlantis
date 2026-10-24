@@ -7,6 +7,11 @@ in the spirit of *Indiana Jones and the Fate of Atlantis*. Third game in the ser
 - Design brief: [DESIGN.md](DESIGN.md)
 - Levels and difficulty ramp: [LEVELS.md](LEVELS.md)
 - Art list for the painters: [art/manifest.json](art/manifest.json)
+- Play: https://claude.ai/artifact/ARTIFACT_URL_PLACEHOLDER
+
+![The 30 painted scenes](docs/scenes.jpg)
+
+![The cast](docs/cast.jpg)
 
 ## How to play
 
@@ -112,6 +117,16 @@ and runs the engine's autotest for all 30 levels in a tiny DOM shim (three runs,
 In a browser, `index.html?autotest=1` plays every level programmatically and prints `PASS`/`FAIL` per level to the console.
 
 ## Art
+
+All pictures were generated with image models driven through Chrome (Gemini in one profile, ChatGPT in another)
+from the English descriptions in `art/manifest.json`, in one consistent "remastered LucasArts" style:
+
+- characters: one green-screen sheet per character with two poses (idle, talking), split and keyed out by
+  `tools/keyout.py`; the children and the princess came from Gemini (ChatGPT's filter refuses child characters);
+- scenes: 30 backgrounds painted without people, cropped to 1280×720; hotspot rectangles in `js/levels.js` were
+  then moved to where the objects actually are;
+- items: three green-screen grids split into 128×128 icons by `tools/grid.py`;
+- `tools/clip.ps1` saves the clipboard image (ChatGPT's "Copy image" button) straight into the pipeline.
 
 Art is painted separately and copied into `art/` (`scenes/`, `characters/`, `items/`, `ui/`) with the file names from
 `art/manifest.json`. After copying, run

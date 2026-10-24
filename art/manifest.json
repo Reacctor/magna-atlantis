@@ -400,15 +400,15 @@
           "shows": "date palm tree with dates"
         },
         "sundial": {
-          "rect": [350, 268, 210, 110],
+          "rect": [420, 330, 230, 110],
           "shows": "round stone sundial with a pointer and engraved sun symbols"
         },
         "well": {
-          "rect": [840, 250, 170, 120],
+          "rect": [930, 260, 180, 120],
           "shows": "old round stone well with a wooden lid made of tiles"
         },
         "bucket": {
-          "rect": [880, 150, 90, 100],
+          "rect": [960, 160, 90, 100],
           "shows": "wooden frame above the well with a rope and a bucket"
         }
       }
@@ -428,11 +428,11 @@
       ],
       "hotspots": {
         "grill": {
-          "rect": [40, 300, 140, 130],
+          "rect": [170, 310, 110, 110],
           "shows": "khorovats barbecue grill with skewers and a little smoke"
         },
         "garden": {
-          "rect": [190, 310, 400, 90],
+          "rect": [340, 300, 260, 100],
           "shows": "small vineyard garden with green hedges forming paths like a maze"
         }
       }
@@ -702,11 +702,11 @@
           "shows": "stall with bunches of bananas"
         },
         "stairs": {
-          "rect": [456, 110, 360, 340],
+          "rect": [456, 110, 360, 250],
           "shows": "rainbow-coloured stairs climbing to a big dark cave mouth"
         },
         "king": {
-          "rect": [520, 220, 120, 110],
+          "rect": [540, 370, 120, 110],
           "shows": "a big old monkey with a leaf crown sitting on a rock, holding a shiny bronze compass"
         }
       }

@@ -7,7 +7,7 @@ in the spirit of *Indiana Jones and the Fate of Atlantis*. Third game in the ser
 - Design brief: [DESIGN.md](DESIGN.md)
 - Levels and difficulty ramp: [LEVELS.md](LEVELS.md)
 - Art list for the painters: [art/manifest.json](art/manifest.json)
-- Play: https://claude.ai/artifact/ARTIFACT_URL_PLACEHOLDER
+- Play: https://claude.ai/artifact/N22BUAMrNxxJqj2dVdr6fH
 
 ![The 30 painted scenes](docs/scenes.jpg)
 

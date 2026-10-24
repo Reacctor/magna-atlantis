@@ -1,0 +1,1272 @@
+{
+  "version": 1,
+  "layout": "Every background is 1280x720. The bottom 80 px (y 640-720) is hidden under the game UI bar: paint plain floor or ground there. Characters are separate PNGs standing with their feet at about y=640; keep the lower-left area (x 60-460, y 300-640) as open, uncluttered floor for Magna and Dad, and keep the floor under the listed character spots free of big props. The top 56 px are under a thin HUD bar (sky or ceiling is fine). Each hotspot object must be clearly painted inside its rectangle [x, y, w, h] so a child can tap it. Painted storybook style, warm and friendly, never scary.",
+  "scenes": {
+    "level01_room": {
+      "file": "scenes/level01_room.jpg",
+      "size": [1280, 720],
+      "level": 1,
+      "description": "Magna's cosy bedroom in São Paulo on a rainy afternoon: rain streaks on a big window, warm lamp light, a bed on the left, colourful toys scattered over the rug in the middle, a low shelf with paint jars on the right. Mum stands on the right side of the room.",
+      "characterSpots": [
+        { "id": "olga", "x": 1090, "feetY": 640 }
+      ],
+      "hotspots": {
+        "window": {
+          "rect": [470, 70, 300, 220],
+          "shows": "big window with rain running down the glass and grey-green city roofs outside"
+        },
+        "bed": {
+          "rect": [40, 330, 330, 170],
+          "shows": "small bed with a panda blanket"
+        },
+        "toys": {
+          "rect": [440, 420, 340, 170],
+          "shows": "a messy pile of toys on the rug: teddy, balls, blocks, a toy plane"
+        },
+        "shelf": {
+          "rect": [820, 100, 240, 230],
+          "shows": "low wooden shelf with empty paint jars and loose paint tubes of many colours"
+        }
+      }
+    },
+    "level02_attic": {
+      "file": "scenes/level02_attic.jpg",
+      "size": [1280, 720],
+      "level": 2,
+      "description": "Dusty wooden attic under a sloping roof, sunbeams through a round window, cobwebs, old suitcases; in the centre an old sailor's sea chest with brass corners. Mood: mysterious but cosy.",
+      "characterSpots": [],
+      "hotspots": {
+        "window": {
+          "rect": [150, 80, 200, 190],
+          "shows": "round attic window with a sunbeam"
+        },
+        "hatch": {
+          "rect": [960, 200, 240, 170],
+          "shows": "open floor hatch with the top of a ladder, light coming up from below"
+        },
+        "lamp": {
+          "rect": [560, 60, 130, 150],
+          "shows": "old unlit light bulb hanging from a roof beam on a cord"
+        },
+        "chest": {
+          "rect": [500, 380, 300, 200],
+          "shows": "big old sailor's sea chest with an anchor carved on the lid and a keyhole"
+        },
+        "pieces": {
+          "rect": [860, 410, 250, 150],
+          "shows": "a small wooden crate with torn pieces of an old paper map peeking out"
+        }
+      }
+    },
+    "level03_park": {
+      "file": "scenes/level03_park.jpg",
+      "size": [1280, 720],
+      "level": 3,
+      "description": "Ibirapuera park in São Paulo on a sunny morning: a pond, palm trees and a big pink ipê tree with small monkeys in the branches, a wooden trail sign, joggers far away. A scruffy brown dog sits on the right.",
+      "characterSpots": [
+        { "id": "dog_feijao", "x": 960, "feetY": 640 },
+        { "id": "olga", "x": 1170, "feetY": 640 }
+      ],
+      "hotspots": {
+        "lake": {
+          "rect": [430, 430, 400, 150],
+          "shows": "calm pond with ducks and reflections"
+        },
+        "tree": {
+          "rect": [540, 60, 320, 280],
+          "shows": "big flowering pink ipê tree with three cheeky little monkeys hiding in the branches"
+        },
+        "sign": {
+          "rect": [890, 120, 160, 170],
+          "shows": "wooden trail sign with picture arrows (no readable text)"
+        }
+      }
+    },
+    "level04_airport": {
+      "file": "scenes/level04_airport.jpg",
+      "size": [1280, 720],
+      "level": 4,
+      "description": "Bright modern São Paulo airport terminal: big windows with planes outside, a departures board, a check-in desk, a baggage belt with suitcases, a boarding gate on the left. The villain stands on the right with his crow perched on a luggage cart.",
+      "characterSpots": [
+        { "id": "baron", "x": 1010, "feetY": 640 },
+        { "id": "karkusha", "x": 1100, "feetY": 330 },
+        { "id": "olga", "x": 1190, "feetY": 640 }
+      ],
+      "hotspots": {
+        "board": {
+          "rect": [420, 70, 440, 150],
+          "shows": "departures board with flight rows and little plane icons"
+        },
+        "desk": {
+          "rect": [560, 240, 260, 150],
+          "shows": "check-in desk with colourful boarding passes fanned out on it"
+        },
+        "belt": {
+          "rect": [430, 420, 340, 170],
+          "shows": "baggage conveyor belt with a few colourful suitcases"
+        },
+        "gate": {
+          "rect": [40, 110, 330, 240],
+          "shows": "boarding gate with a glass door and a jet bridge, a plane visible behind"
+        }
+      }
+    },
+    "level05_flat": {
+      "file": "scenes/level05_flat.jpg",
+      "size": [1280, 720],
+      "level": 5,
+      "description": "Grandma's warm Moscow flat in the evening: a kitchen-living room with a stove and a frying pan, a high bookshelf, a samovar on the table, lace curtains and snow falling outside the window. Grandma stands on the right.",
+      "characterSpots": [
+        { "id": "tamara", "x": 980, "feetY": 640 },
+        { "id": "olga", "x": 1160, "feetY": 640 }
+      ],
+      "hotspots": {
+        "window": {
+          "rect": [170, 70, 220, 200],
+          "shows": "window with lace curtains, snowflakes and lit windows of Moscow buildings outside"
+        },
+        "samovar": {
+          "rect": [760, 320, 120, 140],
+          "shows": "shiny brass samovar on the table with a teacup"
+        },
+        "stove": {
+          "rect": [470, 230, 260, 250],
+          "shows": "old white stove with a frying pan, a bowl of batter and a plate of blini"
+        },
+        "shelf": {
+          "rect": [790, 70, 260, 170],
+          "shows": "high bookshelf; on the top shelf an old leather family diary with a ribbon"
+        }
+      }
+    },
+    "level06_redsquare": {
+      "file": "scenes/level06_redsquare.jpg",
+      "size": [1280, 720],
+      "level": 6,
+      "description": "Red Square in Moscow on a snowy day: St Basil's colourful domes in the background, the GUM building on the left, cobblestones under fresh snow with a trail of big boot prints across the middle. A fluffy white dog sits on the right.",
+      "characterSpots": [
+        { "id": "dog_sharik", "x": 960, "feetY": 640 },
+        { "id": "olga", "x": 1170, "feetY": 640 }
+      ],
+      "hotspots": {
+        "basil": {
+          "rect": [460, 60, 340, 240],
+          "shows": "St Basil's Cathedral with its striped, colourful onion domes under snow"
+        },
+        "gum": {
+          "rect": [40, 90, 330, 190],
+          "shows": "GUM department store facade with garlands of lights"
+        },
+        "steps": {
+          "rect": [440, 470, 380, 140],
+          "shows": "a trail of large boot prints in the snow crossing the square"
+        },
+        "arch": {
+          "rect": [1000, 110, 240, 190],
+          "shows": "a red brick archway at the far side of the square leading to a snowy park"
+        }
+      }
+    },
+    "level07_fountain": {
+      "file": "scenes/level07_fountain.jpg",
+      "size": [1280, 720],
+      "level": 7,
+      "description": "A frozen fountain in a snowy Moscow park at dusk: the fountain bowl in the centre is a cage of blue ice with a princess trapped inside (she is a separate sprite), snowy trees on the left, lanterns glowing. The comic villain stands on the right, slipping on the ice.",
+      "characterSpots": [
+        { "id": "snezhana", "x": 650, "feetY": 560 },
+        { "id": "baron", "x": 1010, "feetY": 640 },
+        { "id": "karkusha", "x": 1130, "feetY": 230 }
+      ],
+      "hotspots": {
+        "trees": {
+          "rect": [40, 80, 330, 220],
+          "shows": "snowy fir trees with a lantern"
+        },
+        "lid": {
+          "rect": [500, 110, 300, 160],
+          "shows": "heavy round lid of ice on top of the fountain, with icicles in a repeating pattern"
+        },
+        "keyhole": {
+          "rect": [780, 430, 130, 120],
+          "shows": "a small keyhole shape in the ice at the base of the fountain, glowing faintly"
+        }
+      }
+    },
+    "level08_metro": {
+      "file": "scenes/level08_metro.jpg",
+      "size": [1280, 720],
+      "level": 8,
+      "description": "A grand Moscow metro station hall: marble columns, bronze chandeliers, colourful ceiling mosaics, a metro line map on the wall, turnstiles in the middle, a train at the platform far away.",
+      "characterSpots": [
+        { "id": "snezhana", "x": 1010, "feetY": 640 },
+        { "id": "tamara", "x": 1150, "feetY": 640 }
+      ],
+      "hotspots": {
+        "lamps": {
+          "rect": [60, 60, 300, 170],
+          "shows": "ornate bronze chandeliers"
+        },
+        "mosaic": {
+          "rect": [430, 60, 420, 180],
+          "shows": "arched ceiling mosaic with pictures of an owl, a fox, a moon and stars"
+        },
+        "metromap": {
+          "rect": [880, 120, 220, 200],
+          "shows": "colourful metro line map on the wall (simple coloured lines and dots, no readable text)"
+        },
+        "turnstile": {
+          "rect": [450, 380, 300, 200],
+          "shows": "row of old metro turnstiles with picture tiles"
+        }
+      }
+    },
+    "level09_clock": {
+      "file": "scenes/level09_clock.jpg",
+      "size": [1280, 720],
+      "level": 9,
+      "description": "Inside Strasbourg cathedral: tall stained-glass light, the huge astronomical clock in the centre with a big painted dial, little moving apostle figures on the right, brass gears on the left.",
+      "characterSpots": [
+        { "id": "snezhana", "x": 1040, "feetY": 640 }
+      ],
+      "hotspots": {
+        "glass": {
+          "rect": [1110, 70, 150, 220],
+          "shows": "tall stained-glass window with a stork"
+        },
+        "gears": {
+          "rect": [60, 90, 290, 200],
+          "shows": "big brass clock gears and cogs, some visible behind a little door"
+        },
+        "figures": {
+          "rect": [850, 90, 240, 220],
+          "shows": "row of little carved wooden figures (a knight, a lady, a rooster) on a balcony of the clock"
+        },
+        "dial": {
+          "rect": [480, 80, 320, 320],
+          "shows": "big round painted clock dial with sun, moon and star symbols"
+        }
+      }
+    },
+    "level10_canals": {
+      "file": "scenes/level10_canals.jpg",
+      "size": [1280, 720],
+      "level": 10,
+      "description": "Petite France in Strasbourg on a sunny spring day: half-timbered houses with flower boxes, a calm canal across the bottom middle, a bakery on the left, a stork's nest on a high roof on the right, a bench on the far bank.",
+      "characterSpots": [
+        { "id": "snezhana", "x": 1150, "feetY": 640 }
+      ],
+      "hotspots": {
+        "flowers": {
+          "rect": [880, 300, 200, 110],
+          "shows": "window boxes full of red geraniums"
+        },
+        "bakery": {
+          "rect": [60, 100, 300, 210],
+          "shows": "bakery shop window with pretzels and a pretzel-shaped sign"
+        },
+        "canal": {
+          "rect": [420, 470, 520, 140],
+          "shows": "calm canal water with reflections, too wide to step over"
+        },
+        "nest": {
+          "rect": [880, 60, 230, 170],
+          "shows": "big stork nest on a chimney with a stork and something paper sticking out"
+        },
+        "bench": {
+          "rect": [560, 300, 240, 130],
+          "shows": "wooden bench on the far bank of the canal"
+        }
+      }
+    },
+    "level11_belfry": {
+      "file": "scenes/level11_belfry.jpg",
+      "size": [1280, 720],
+      "level": 11,
+      "description": "Oudenaarde market square in Belgium: the lacy gothic town hall with a tall belfry, bells visible in the tower, a market stall with waffles and fruit on the left, cobblestones, pigeons. Overcast but cheerful.",
+      "characterSpots": [
+        { "id": "baron", "x": 960, "feetY": 640 },
+        { "id": "snezhana", "x": 1160, "feetY": 640 }
+      ],
+      "hotspots": {
+        "bells": {
+          "rect": [520, 60, 240, 220],
+          "shows": "the belfry with a row of bronze bells of different sizes"
+        },
+        "stall": {
+          "rect": [70, 130, 300, 200],
+          "shows": "market stall with waffles, apples, cheese and flowers"
+        },
+        "door": {
+          "rect": [570, 330, 200, 250],
+          "shows": "big carved wooden door of the town hall"
+        }
+      }
+    },
+    "level12_museum": {
+      "file": "scenes/level12_museum.jpg",
+      "size": [1280, 720],
+      "level": 12,
+      "description": "A tapestry museum hall: a huge old tapestry on the wall in the centre showing a ship and a bronze disc with three rings (sun, moon, star), a glass display case on the left, a photo tripod on the right, a chandelier above.",
+      "characterSpots": [
+        { "id": "karkusha", "x": 1000, "feetY": 160 },
+        { "id": "snezhana", "x": 1160, "feetY": 640 }
+      ],
+      "hotspots": {
+        "case": {
+          "rect": [60, 140, 230, 180],
+          "shows": "locked glass display case with a little magnifying glass inside"
+        },
+        "tapestry": {
+          "rect": [380, 80, 500, 300],
+          "shows": "large medieval tapestry with a sailing ship, waves and a golden compass with three rings"
+        },
+        "border": {
+          "rect": [380, 390, 500, 90],
+          "shows": "decorated lower border of the tapestry with a repeating pattern of flowers and leaves"
+        },
+        "tripod": {
+          "rect": [880, 360, 160, 230],
+          "shows": "old wooden photo camera on a tripod"
+        }
+      }
+    },
+    "level13_courtyard": {
+      "file": "scenes/level13_courtyard.jpg",
+      "size": [1280, 720],
+      "level": 13,
+      "description": "A sunny courtyard of an old Algerian family house: white walls, blue doors and blue-green zellige tiles, an orange tree in a big pot, clay jars of different sizes, a blue gate on the left. An old aunt sits on the right with a sand-coloured greyhound.",
+      "characterSpots": [
+        { "id": "dog_zefir", "x": 860, "feetY": 640 },
+        { "id": "aunt", "x": 1010, "feetY": 640 }
+      ],
+      "hotspots": {
+        "tiles": {
+          "rect": [880, 80, 260, 160],
+          "shows": "wall of blue and green patterned zellige tiles"
+        },
+        "tree": {
+          "rect": [430, 60, 300, 260],
+          "shows": "orange tree with oranges and a few other fruits hanging in it"
+        },
+        "jars": {
+          "rect": [460, 400, 300, 190],
+          "shows": "four clay jars of clearly different sizes on the floor"
+        },
+        "gate": {
+          "rect": [40, 110, 260, 320],
+          "shows": "arched blue wooden gate with iron studs"
+        }
+      }
+    },
+    "level14_casbah": {
+      "file": "scenes/level14_casbah.jpg",
+      "size": [1280, 720],
+      "level": 14,
+      "description": "The casbah of Algiers: narrow white stairs climbing up between white houses, laundry lines strung across with colourful clothes, a small green door with a hook, a flat roof up on the right, bright blue sky and a glimpse of the sea.",
+      "characterSpots": [
+        { "id": "dog_zefir", "x": 960, "feetY": 640 },
+        { "id": "baron", "x": 1170, "feetY": 640 }
+      ],
+      "hotspots": {
+        "laundry": {
+          "rect": [430, 70, 400, 160],
+          "shows": "laundry line across the alley with colourful clothes: a shirt, socks, a dress, trousers"
+        },
+        "door": {
+          "rect": [880, 200, 190, 240],
+          "shows": "small green door with a brass hook hanging on it"
+        },
+        "stairs": {
+          "rect": [470, 300, 340, 290],
+          "shows": "steep white stone stairs, a few steps cracked"
+        },
+        "roof": {
+          "rect": [1060, 60, 200, 170],
+          "shows": "edge of a flat white roof high up with a view of the sea"
+        }
+      }
+    },
+    "level15_dunes": {
+      "file": "scenes/level15_dunes.jpg",
+      "size": [1280, 720],
+      "level": 15,
+      "description": "The Sahara at noon: golden dunes, a palm tree on the left, a round stone sundial in the sand in the middle, an old stone well on the right with a wooden bucket frame above it. Strong sun, short shadows.",
+      "characterSpots": [
+        { "id": "dog_zefir", "x": 1180, "feetY": 640 }
+      ],
+      "hotspots": {
+        "palm": {
+          "rect": [40, 60, 270, 260],
+          "shows": "date palm tree with dates"
+        },
+        "sundial": {
+          "rect": [450, 380, 270, 200],
+          "shows": "round stone sundial with a pointer and engraved sun symbols"
+        },
+        "well": {
+          "rect": [780, 260, 230, 300],
+          "shows": "old round stone well with a wooden lid made of tiles"
+        },
+        "bucket": {
+          "rect": [480, 150, 200, 150],
+          "shows": "wooden frame above the well with a rope and a bucket"
+        }
+      }
+    },
+    "level16_yard": {
+      "file": "scenes/level16_yard.jpg",
+      "size": [1280, 720],
+      "level": 16,
+      "description": "A courtyard of a house in Yerevan in warm evening light: an apricot tree, a khorovats barbecue grill with smoke on the left, a little vineyard garden with paths in the back centre, snowy Mount Ararat on the horizon. A family of six stands across the right half.",
+      "characterSpots": [
+        { "id": "liliana", "x": 520, "feetY": 640 },
+        { "id": "maya", "x": 640, "feetY": 640 },
+        { "id": "yuliana", "x": 765, "feetY": 640 },
+        { "id": "olga", "x": 885, "feetY": 640 },
+        { "id": "yulia", "x": 1000, "feetY": 640 },
+        { "id": "tigran", "x": 1130, "feetY": 640 }
+      ],
+      "hotspots": {
+        "grill": {
+          "rect": [40, 100, 320, 200],
+          "shows": "khorovats barbecue grill with skewers and a little smoke"
+        },
+        "garden": {
+          "rect": [420, 70, 400, 250],
+          "shows": "small vineyard garden with green hedges forming paths like a maze"
+        }
+      }
+    },
+    "level17_cascade": {
+      "file": "scenes/level17_cascade.jpg",
+      "size": [1280, 720],
+      "level": 17,
+      "description": "The Cascade in Yerevan: giant white stone stairs with terraced flower beds, modern sculptures, a clock tower on the right, sunny day, city below. A girl with a bike stands on the right.",
+      "characterSpots": [
+        { "id": "karkusha", "x": 760, "feetY": 260 },
+        { "id": "yuliana", "x": 1000, "feetY": 640 }
+      ],
+      "hotspots": {
+        "cat": {
+          "rect": [1100, 130, 160, 200],
+          "shows": "big round funny bronze sculpture of a fat cat"
+        },
+        "flowers": {
+          "rect": [420, 330, 380, 240],
+          "shows": "terraced flower beds in a grid of squares with red, yellow and blue flowers"
+        },
+        "clock": {
+          "rect": [860, 60, 200, 240],
+          "shows": "tall clock tower with a big round clock face"
+        },
+        "drawing": {
+          "rect": [560, 90, 170, 140],
+          "shows": "a child's crayon drawing on paper caught on a bush"
+        }
+      }
+    },
+    "level18_aragats": {
+      "file": "scenes/level18_aragats.jpg",
+      "size": [1280, 720],
+      "level": 18,
+      "description": "A snowfield high on Mount Aragats under a crisp blue sky: deep snow, huge round footprints, a mountain stream cutting across, a wooden signpost on the left, big snowy rocks hiding a cave on the right.",
+      "characterSpots": [
+        { "id": "snezhana", "x": 520, "feetY": 640 },
+        { "id": "dog_ararat", "x": 870, "feetY": 640 },
+        { "id": "tigran", "x": 1170, "feetY": 640 }
+      ],
+      "hotspots": {
+        "sign": {
+          "rect": [420, 110, 150, 230],
+          "shows": "wooden signpost with picture arrows, half covered in snow"
+        },
+        "tracks": {
+          "rect": [600, 470, 360, 120],
+          "shows": "a line of huge round furry footprints in the snow"
+        },
+        "stream": {
+          "rect": [640, 320, 330, 120],
+          "shows": "fast mountain stream with stones, too wide to jump"
+        },
+        "rock": {
+          "rect": [960, 110, 260, 280],
+          "shows": "big snowy boulders blocking a dark cave entrance"
+        }
+      }
+    },
+    "level19_cave": {
+      "file": "scenes/level19_cave.jpg",
+      "size": [1280, 720],
+      "level": 19,
+      "description": "The Yeti's cosy ice cave: blue ice walls lit by a warm lantern, a knitted rug, a basket of yarn balls, a clock made of icicles, childlike wall paintings of a yeti and friends, a pile of snowballs. The Yeti sits in the middle right.",
+      "characterSpots": [
+        { "id": "yeti", "x": 860, "feetY": 640 },
+        { "id": "dog_ararat", "x": 1150, "feetY": 640 }
+      ],
+      "hotspots": {
+        "paintings": {
+          "rect": [70, 80, 300, 200],
+          "shows": "simple wall paintings scratched in the ice: a yeti, pancakes, a sun, a dog"
+        },
+        "clock": {
+          "rect": [460, 70, 210, 210],
+          "shows": "round clock made of icicles with big hands"
+        },
+        "basket": {
+          "rect": [420, 400, 250, 180],
+          "shows": "wicker basket full of colourful yarn balls and knitting needles"
+        }
+      }
+    },
+    "level20_pool": {
+      "file": "scenes/level20_pool.jpg",
+      "size": [1280, 720],
+      "level": 20,
+      "description": "A villa in Phuket with a turquoise swimming pool in the bottom middle, palm trees, a sun umbrella on the left, a wooden terrace with a spilled puddle of orange juice, tropical flowers. A family stands on the right.",
+      "characterSpots": [
+        { "id": "snezhana", "x": 430, "feetY": 640 },
+        { "id": "timosha", "x": 900, "feetY": 640 },
+        { "id": "irina", "x": 1030, "feetY": 640 },
+        { "id": "alexander", "x": 1170, "feetY": 640 }
+      ],
+      "hotspots": {
+        "umbrella": {
+          "rect": [40, 70, 300, 200],
+          "shows": "striped sun umbrella with a lounger"
+        },
+        "juice": {
+          "rect": [520, 240, 280, 120],
+          "shows": "wooden terrace floor with a spilled orange juice puddle and a tipped glass"
+        },
+        "pool": {
+          "rect": [450, 420, 400, 170],
+          "shows": "clear turquoise swimming pool; shells and a rolled paper glint at the bottom"
+        }
+      }
+    },
+    "level21_buddha": {
+      "file": "scenes/level21_buddha.jpg",
+      "size": [1280, 720],
+      "level": 21,
+      "description": "Big Buddha hill in Phuket in golden late-afternoon light: the huge white marble Buddha statue in the background, a fruit stall on the left, a railing with playful monkeys in the middle, a temple bell on a wooden frame on the right.",
+      "characterSpots": [
+        { "id": "dog_mango", "x": 1000, "feetY": 640 },
+        { "id": "timosha", "x": 1150, "feetY": 640 }
+      ],
+      "hotspots": {
+        "buddha": {
+          "rect": [420, 50, 400, 230],
+          "shows": "the huge calm white marble Buddha statue"
+        },
+        "stall": {
+          "rect": [60, 120, 300, 200],
+          "shows": "fruit stall with bananas, mangoes, coconuts and a hanging weighing scale"
+        },
+        "monkeys": {
+          "rect": [480, 330, 320, 200],
+          "shows": "stone railing with four playful monkeys and a pile of coconuts"
+        },
+        "bell": {
+          "rect": [860, 80, 210, 210],
+          "shows": "big bronze temple bell hanging on a wooden frame"
+        }
+      }
+    },
+    "level22_lagoon": {
+      "file": "scenes/level22_lagoon.jpg",
+      "size": [1280, 720],
+      "level": 22,
+      "description": "An emerald lagoon among limestone karst islands near Phuket: a wooden pier with a colourful long-tail boat in the bottom middle, a sea cave wall decorated with shells on the right, a purple speedboat far away on the left.",
+      "characterSpots": [
+        { "id": "dog_mango", "x": 900, "feetY": 640 },
+        { "id": "alexander", "x": 1060, "feetY": 640 }
+      ],
+      "hotspots": {
+        "speedboat": {
+          "rect": [40, 290, 300, 110],
+          "shows": "a purple speedboat with a top-hat flag far away on the water"
+        },
+        "boat": {
+          "rect": [420, 400, 420, 190],
+          "shows": "colourful Thai long-tail boat with garlands, moored at the pier"
+        },
+        "wall": {
+          "rect": [880, 90, 250, 220],
+          "shows": "rock wall of a sea cave with shells pressed into it in a grid"
+        },
+        "shell": {
+          "rect": [650, 160, 160, 140],
+          "shows": "a giant open clam shell in a cave niche, glowing softly"
+        }
+      }
+    },
+    "level23_market": {
+      "file": "scenes/level23_market.jpg",
+      "size": [1280, 720],
+      "level": 23,
+      "description": "Shekou toy market in Shenzhen in the evening: rows of stalls under red paper lanterns, neon signs with pictures (no readable text), a stall with oil cans and tools on the right, a stall of toy mirrors on the left-centre, a wooden crate in the middle.",
+      "characterSpots": [
+        { "id": "karkusha", "x": 700, "feetY": 470 }
+      ],
+      "hotspots": {
+        "lanterns": {
+          "rect": [40, 70, 340, 150],
+          "shows": "strings of red paper lanterns"
+        },
+        "oil": {
+          "rect": [880, 160, 260, 220],
+          "shows": "tool stall with little oil cans with price tags made of symbols"
+        },
+        "mirrors": {
+          "rect": [420, 110, 250, 220],
+          "shows": "stall full of little round toy mirrors"
+        }
+      }
+    },
+    "level24_factory": {
+      "file": "scenes/level24_factory.jpg",
+      "size": [1280, 720],
+      "level": 24,
+      "description": "The Baron's toy factory by Sea World in Shenzhen: purple walls, big brass gears, a long conveyor belt with toys in the middle, a control panel with buttons on the right, a big round safe up high, a small air vent near the floor on the left. Comic, not scary.",
+      "characterSpots": [
+        { "id": "karkusha", "x": 760, "feetY": 270 },
+        { "id": "baron", "x": 1150, "feetY": 640 }
+      ],
+      "hotspots": {
+        "toys": {
+          "rect": [40, 80, 320, 170],
+          "shows": "stacks of shiny unbreakable toys in boxes, all locked with tiny padlocks"
+        },
+        "belt": {
+          "rect": [420, 330, 420, 200],
+          "shows": "conveyor belt carrying toys in growing groups"
+        },
+        "panel": {
+          "rect": [900, 140, 220, 220],
+          "shows": "control panel with a grid of picture buttons and levers"
+        },
+        "vent": {
+          "rect": [60, 300, 200, 130],
+          "shows": "small air vent grate low on the wall, just child-sized"
+        },
+        "safe": {
+          "rect": [560, 80, 200, 180],
+          "shows": "big round purple safe with a dial, on a platform"
+        }
+      }
+    },
+    "level25_skybridge": {
+      "file": "scenes/level25_skybridge.jpg",
+      "size": [1280, 720],
+      "level": 25,
+      "description": "Inside the Petronas Towers skybridge at night: glass walls, the twin towers glittering, Kuala Lumpur city lights far below, a stone pedestal in the middle of the bridge, a bronze plaque on the right, the end of the bridge on the left.",
+      "characterSpots": [],
+      "hotspots": {
+        "towers": {
+          "rect": [880, 380, 300, 200],
+          "shows": "view down onto glittering city lights and the other tower"
+        },
+        "window": {
+          "rect": [430, 70, 380, 230],
+          "shows": "big window with many lit windows of skyscrapers outside"
+        },
+        "plaque": {
+          "rect": [880, 170, 210, 150],
+          "shows": "bronze plaque with engraved symbols"
+        },
+        "bridge": {
+          "rect": [60, 110, 300, 200],
+          "shows": "the end of the skybridge with a door to the other tower"
+        },
+        "pedestal": {
+          "rect": [540, 380, 220, 200],
+          "shows": "round stone pedestal with a disc-shaped hollow on top"
+        }
+      }
+    },
+    "level26_batu": {
+      "file": "scenes/level26_batu.jpg",
+      "size": [1280, 720],
+      "level": 26,
+      "description": "Batu Caves near Kuala Lumpur: the giant golden statue on the right, the long rainbow-coloured stairs leading up to the cave mouth in the middle, a banana stall on the left, monkeys everywhere, a monkey king on a rock holding a shiny compass.",
+      "characterSpots": [
+        { "id": "dog_feijao", "x": 1000, "feetY": 640 }
+      ],
+      "hotspots": {
+        "statue": {
+          "rect": [1080, 60, 180, 280],
+          "shows": "the giant golden statue"
+        },
+        "stall": {
+          "rect": [60, 120, 300, 200],
+          "shows": "stall with bunches of bananas"
+        },
+        "stairs": {
+          "rect": [430, 60, 380, 330],
+          "shows": "rainbow-coloured stairs climbing to a big dark cave mouth"
+        },
+        "king": {
+          "rect": [860, 160, 200, 200],
+          "shows": "a big old monkey with a leaf crown sitting on a rock, holding a shiny bronze compass"
+        }
+      }
+    },
+    "level27_shibuya": {
+      "file": "scenes/level27_shibuya.jpg",
+      "size": [1280, 720],
+      "level": 27,
+      "description": "Shibuya crossing in Tokyo on an evening: giant video screens with cute pictures, crowds of tourists in hats in the middle, a ticket machine on the right, the station entrance on the left. Neon colours, gentle drizzle.",
+      "characterSpots": [
+        { "id": "dog_mochi", "x": 990, "feetY": 640 },
+        { "id": "baron", "x": 1170, "feetY": 640 }
+      ],
+      "hotspots": {
+        "screens": {
+          "rect": [880, 60, 360, 110],
+          "shows": "giant video screens with cute animals"
+        },
+        "tourists": {
+          "rect": [420, 260, 420, 250],
+          "shows": "group of three tourists in big hats of different colours, one with a suspicious moustache"
+        },
+        "machine": {
+          "rect": [880, 190, 200, 200],
+          "shows": "ticket machine with big picture buttons"
+        },
+        "station": {
+          "rect": [40, 100, 300, 250],
+          "shows": "station entrance with a train symbol"
+        }
+      }
+    },
+    "level28_festival": {
+      "file": "scenes/level28_festival.jpg",
+      "size": [1280, 720],
+      "level": 28,
+      "description": "The Sapporo snow festival in Hokkaido at night: a huge ice castle in the background, an ice dragon on the left, rows of ice lanterns, a snowy path, carved snow blocks, a frozen-or-flowing waterfall on the right, a small altar on top of the castle.",
+      "characterSpots": [
+        { "id": "dog_mochi", "x": 1100, "feetY": 640 },
+        { "id": "snezhana", "x": 1210, "feetY": 640 }
+      ],
+      "hotspots": {
+        "dragon": {
+          "rect": [40, 90, 320, 200],
+          "shows": "a giant ice dragon sculpture"
+        },
+        "lanterns": {
+          "rect": [400, 210, 360, 150],
+          "shows": "nine ice lanterns in a 3x3 group, some lit, some dark"
+        },
+        "path": {
+          "rect": [420, 420, 380, 170],
+          "shows": "snowy path with four stops: ice dragon, snowman, ice slide, lantern gate"
+        },
+        "blocks": {
+          "rect": [820, 380, 200, 200],
+          "shows": "carved snow blocks with symbols in a grid"
+        },
+        "waterfall": {
+          "rect": [1040, 60, 200, 260],
+          "shows": "waterfall flowing down the side of the ice castle"
+        },
+        "altar": {
+          "rect": [560, 60, 200, 130],
+          "shows": "small round stone altar on top of the ice castle with star marks"
+        }
+      }
+    },
+    "level29_miami": {
+      "file": "scenes/level29_miami.jpg",
+      "size": [1280, 720],
+      "level": 29,
+      "description": "Miami beach on a sunny day: pastel art-deco hotels, palm trees, a lifeguard tower on the left, a wooden pier on the right, the Baron's purple seaplane on the water, gulls, open sky above the sea in the centre.",
+      "characterSpots": [
+        { "id": "yeti", "x": 610, "feetY": 640 },
+        { "id": "dog_feijao", "x": 440, "feetY": 640 },
+        { "id": "dog_sharik", "x": 500, "feetY": 640 },
+        { "id": "dog_zefir", "x": 760, "feetY": 640 },
+        { "id": "dog_ararat", "x": 830, "feetY": 640 },
+        { "id": "dog_mango", "x": 890, "feetY": 640 },
+        { "id": "dog_mochi", "x": 940, "feetY": 640 },
+        { "id": "karkusha", "x": 1080, "feetY": 170 },
+        { "id": "baron", "x": 1190, "feetY": 640 }
+      ],
+      "hotspots": {
+        "hotels": {
+          "rect": [430, 230, 300, 100],
+          "shows": "row of pastel art-deco hotels"
+        },
+        "wind": {
+          "rect": [430, 60, 380, 160],
+          "shows": "open sky over the sea with wind swirls and clouds"
+        },
+        "tower": {
+          "rect": [40, 90, 260, 250],
+          "shows": "colourful lifeguard tower"
+        },
+        "pier": {
+          "rect": [980, 420, 260, 170],
+          "shows": "long wooden pier going out to sea"
+        },
+        "seaplane": {
+          "rect": [860, 180, 330, 160],
+          "shows": "purple seaplane with a top-hat logo floating on the water"
+        }
+      }
+    },
+    "level30_atlantis": {
+      "file": "scenes/level30_atlantis.jpg",
+      "size": [1280, 720],
+      "level": 30,
+      "description": "Atlantis under the sea near Bermuda: a vast domed hall of bronze and pale stone, a huge round gate with three rings (sun, moon, star) in the centre, water flooding the floor, golden lamps on the right, carved pillars, fish swimming outside the glass dome, warm golden light shining through the gate.",
+      "characterSpots": [
+        { "id": "snezhana", "x": 430, "feetY": 640 },
+        { "id": "baron", "x": 860, "feetY": 640 },
+        { "id": "olga", "x": 1050, "feetY": 640 },
+        { "id": "yeti", "x": 1180, "feetY": 640 }
+      ],
+      "hotspots": {
+        "fish": {
+          "rect": [40, 70, 320, 180],
+          "shows": "colourful fish and a turtle swimming outside the glass dome"
+        },
+        "gate": {
+          "rect": [380, 70, 400, 300],
+          "shows": "huge round bronze gate with three rotating rings marked with sun, moon and star symbols, golden light glowing behind it"
+        },
+        "water": {
+          "rect": [380, 430, 480, 150],
+          "shows": "sea water flooding across the floor of the hall"
+        },
+        "lamps": {
+          "rect": [820, 70, 220, 170],
+          "shows": "nine golden lamps in a 3x3 group on the wall"
+        },
+        "pillars": {
+          "rect": [800, 260, 190, 160],
+          "shows": "four carved pillars with pictures: a fish, a shell, a crown, a wave"
+        },
+        "light": {
+          "rect": [480, 100, 260, 230],
+          "shows": "a glowing ball of golden light floating in the hall behind the gate"
+        }
+      }
+    }
+  },
+  "characters": {
+    "magna_idle": {
+      "file": "characters/magna_idle.png",
+      "size": [260, 420],
+      "description": "Magna, a 5-year-old girl: light-brown/blond hair with loose wisps and a small side plait, big brown eyes, rosy cheeks, coral-orange T-shirt with a panda wearing yellow glasses, shorts, an explorer satchel across the body. Pose: standing relaxed, facing slightly to the viewer's left, full body, transparent background."
+    },
+    "magna_talk": {
+      "file": "characters/magna_talk.png",
+      "size": [260, 420],
+      "description": "Magna, a 5-year-old girl: light-brown/blond hair with loose wisps and a small side plait, big brown eyes, rosy cheeks, coral-orange T-shirt with a panda wearing yellow glasses, shorts, an explorer satchel across the body. Pose: talking, mouth open, one hand (or paw/wing) raised in a gesture, same framing as idle, transparent background."
+    },
+    "papa_idle": {
+      "file": "characters/papa_idle.png",
+      "size": [320, 600],
+      "description": "Dad, about 45, tall: shaved head under a PINK baseball cap, short grey-white beard, white T-shirt, jeans, a kind smile. Pose: standing relaxed, facing slightly to the viewer's left, full body, transparent background."
+    },
+    "papa_talk": {
+      "file": "characters/papa_talk.png",
+      "size": [320, 600],
+      "description": "Dad, about 45, tall: shaved head under a PINK baseball cap, short grey-white beard, white T-shirt, jeans, a kind smile. Pose: talking, mouth open, one hand (or paw/wing) raised in a gesture, same framing as idle, transparent background."
+    },
+    "olga_idle": {
+      "file": "characters/olga_idle.png",
+      "size": [320, 600],
+      "description": "Olga, Magna's mum: elegant, dark-blond hair, practical clothes, a phone always in her hand. Pose: standing relaxed, facing slightly to the viewer's left, full body, transparent background."
+    },
+    "olga_talk": {
+      "file": "characters/olga_talk.png",
+      "size": [320, 600],
+      "description": "Olga, Magna's mum: elegant, dark-blond hair, practical clothes, a phone always in her hand. Pose: talking, mouth open, one hand (or paw/wing) raised in a gesture, same framing as idle, transparent background."
+    },
+    "tamara_idle": {
+      "file": "characters/tamara_idle.png",
+      "size": [320, 600],
+      "description": "Tamara Egorovna, the grandmother: round glasses, warm knitted cardigan, grey hair in a bun, apron, kind face. Pose: standing relaxed, facing slightly to the viewer's left, full body, transparent background."
+    },
+    "tamara_talk": {
+      "file": "characters/tamara_talk.png",
+      "size": [320, 600],
+      "description": "Tamara Egorovna, the grandmother: round glasses, warm knitted cardigan, grey hair in a bun, apron, kind face. Pose: talking, mouth open, one hand (or paw/wing) raised in a gesture, same framing as idle, transparent background."
+    },
+    "baron_idle": {
+      "file": "characters/baron_idle.png",
+      "size": [320, 600],
+      "description": "Baron von Hap, the comic villain: very tall and thin, monocle, waxed curly moustache, purple long coat, top hat; greedy but silly, never scary. Pose: standing relaxed, facing slightly to the viewer's left, full body, transparent background."
+    },
+    "baron_talk": {
+      "file": "characters/baron_talk.png",
+      "size": [320, 600],
+      "description": "Baron von Hap, the comic villain: very tall and thin, monocle, waxed curly moustache, purple long coat, top hat; greedy but silly, never scary. Pose: talking, mouth open, one hand (or paw/wing) raised in a gesture, same framing as idle, transparent background."
+    },
+    "karkusha_idle": {
+      "file": "characters/karkusha_idle.png",
+      "size": [360, 300],
+      "description": "Karkusha, the Baron's mechanical crow: brass clockwork crow with visible little gears, one red glass eye, a slightly rusty wing. Pose: standing relaxed, facing slightly to the viewer's left, full body, transparent background."
+    },
+    "karkusha_talk": {
+      "file": "characters/karkusha_talk.png",
+      "size": [360, 300],
+      "description": "Karkusha, the Baron's mechanical crow: brass clockwork crow with visible little gears, one red glass eye, a slightly rusty wing. Pose: talking, mouth open, one hand (or paw/wing) raised in a gesture, same framing as idle, transparent background."
+    },
+    "snezhana_idle": {
+      "file": "characters/snezhana_idle.png",
+      "size": [260, 420],
+      "description": "Snezhana, Princess of the North, about 8: pale-blue dress, silver crown of icicles, white-blond braid, frosty sparkles around her hands; shy and polite. Pose: standing relaxed, facing slightly to the viewer's left, full body, transparent background."
+    },
+    "snezhana_talk": {
+      "file": "characters/snezhana_talk.png",
+      "size": [260, 420],
+      "description": "Snezhana, Princess of the North, about 8: pale-blue dress, silver crown of icicles, white-blond braid, frosty sparkles around her hands; shy and polite. Pose: talking, mouth open, one hand (or paw/wing) raised in a gesture, same framing as idle, transparent background."
+    },
+    "yeti_idle": {
+      "file": "characters/yeti_idle.png",
+      "size": [640, 800],
+      "description": "Yeti Boba: huge, fluffy white-grey fur, tiny round kind eyes, enormous feet, a lumpy woolly hat he knitted himself; gentle and a bit lonely. Pose: standing relaxed, facing slightly to the viewer's left, full body, transparent background."
+    },
+    "yeti_talk": {
+      "file": "characters/yeti_talk.png",
+      "size": [640, 800],
+      "description": "Yeti Boba: huge, fluffy white-grey fur, tiny round kind eyes, enormous feet, a lumpy woolly hat he knitted himself; gentle and a bit lonely. Pose: talking, mouth open, one hand (or paw/wing) raised in a gesture, same framing as idle, transparent background."
+    },
+    "dog_feijao_idle": {
+      "file": "characters/dog_feijao_idle.png",
+      "size": [480, 400],
+      "description": "Feijão, a scruffy brown São Paulo street mutt with a red bandana, leader of the Dog Union; clever eyes. Pose: standing relaxed, facing slightly to the viewer's left, full body, transparent background."
+    },
+    "dog_feijao_talk": {
+      "file": "characters/dog_feijao_talk.png",
+      "size": [480, 400],
+      "description": "Feijão, a scruffy brown São Paulo street mutt with a red bandana, leader of the Dog Union; clever eyes. Pose: talking, mouth open, one hand (or paw/wing) raised in a gesture, same framing as idle, transparent background."
+    },
+    "dog_sharik_idle": {
+      "file": "characters/dog_sharik_idle.png",
+      "size": [480, 400],
+      "description": "Sharik, a fluffy white Samoyed in little felt boots (valenki), smiling. Pose: standing relaxed, facing slightly to the viewer's left, full body, transparent background."
+    },
+    "dog_sharik_talk": {
+      "file": "characters/dog_sharik_talk.png",
+      "size": [480, 400],
+      "description": "Sharik, a fluffy white Samoyed in little felt boots (valenki), smiling. Pose: talking, mouth open, one hand (or paw/wing) raised in a gesture, same framing as idle, transparent background."
+    },
+    "dog_zefir_idle": {
+      "file": "characters/dog_zefir_idle.png",
+      "size": [480, 400],
+      "description": "Zefir, a sand-coloured sloughi (slim desert greyhound) with a blue scarf. Pose: standing relaxed, facing slightly to the viewer's left, full body, transparent background."
+    },
+    "dog_zefir_talk": {
+      "file": "characters/dog_zefir_talk.png",
+      "size": [480, 400],
+      "description": "Zefir, a sand-coloured sloughi (slim desert greyhound) with a blue scarf. Pose: talking, mouth open, one hand (or paw/wing) raised in a gesture, same framing as idle, transparent background."
+    },
+    "dog_ararat_idle": {
+      "file": "characters/dog_ararat_idle.png",
+      "size": [480, 400],
+      "description": "Ararat, a big Armenian gampr shepherd dog with a shaggy cream coat and a bell on his collar. Pose: standing relaxed, facing slightly to the viewer's left, full body, transparent background."
+    },
+    "dog_ararat_talk": {
+      "file": "characters/dog_ararat_talk.png",
+      "size": [480, 400],
+      "description": "Ararat, a big Armenian gampr shepherd dog with a shaggy cream coat and a bell on his collar. Pose: talking, mouth open, one hand (or paw/wing) raised in a gesture, same framing as idle, transparent background."
+    },
+    "dog_mango_idle": {
+      "file": "characters/dog_mango_idle.png",
+      "size": [480, 400],
+      "description": "Mango, a small brown Thai dog with a flower behind one ear. Pose: standing relaxed, facing slightly to the viewer's left, full body, transparent background."
+    },
+    "dog_mango_talk": {
+      "file": "characters/dog_mango_talk.png",
+      "size": [480, 400],
+      "description": "Mango, a small brown Thai dog with a flower behind one ear. Pose: talking, mouth open, one hand (or paw/wing) raised in a gesture, same framing as idle, transparent background."
+    },
+    "dog_mochi_idle": {
+      "file": "characters/dog_mochi_idle.png",
+      "size": [480, 400],
+      "description": "Mochi, a red Shiba Inu with a tiny backpack. Pose: standing relaxed, facing slightly to the viewer's left, full body, transparent background."
+    },
+    "dog_mochi_talk": {
+      "file": "characters/dog_mochi_talk.png",
+      "size": [480, 400],
+      "description": "Mochi, a red Shiba Inu with a tiny backpack. Pose: talking, mouth open, one hand (or paw/wing) raised in a gesture, same framing as idle, transparent background."
+    },
+    "tigran_idle": {
+      "file": "characters/tigran_idle.png",
+      "size": [320, 600],
+      "description": "Tigran, a strong Armenian dad with dark hair and a short beard, wearing a barbecue apron, holding skewers. Pose: standing relaxed, facing slightly to the viewer's left, full body, transparent background."
+    },
+    "tigran_talk": {
+      "file": "characters/tigran_talk.png",
+      "size": [320, 600],
+      "description": "Tigran, a strong Armenian dad with dark hair and a short beard, wearing a barbecue apron, holding skewers. Pose: talking, mouth open, one hand (or paw/wing) raised in a gesture, same framing as idle, transparent background."
+    },
+    "yulia_idle": {
+      "file": "characters/yulia_idle.png",
+      "size": [320, 600],
+      "description": "Yulia, a friendly mum with curly dark hair, colourful blouse, warm smile. Pose: standing relaxed, facing slightly to the viewer's left, full body, transparent background."
+    },
+    "yulia_talk": {
+      "file": "characters/yulia_talk.png",
+      "size": [320, 600],
+      "description": "Yulia, a friendly mum with curly dark hair, colourful blouse, warm smile. Pose: talking, mouth open, one hand (or paw/wing) raised in a gesture, same framing as idle, transparent background."
+    },
+    "yuliana_idle": {
+      "file": "characters/yuliana_idle.png",
+      "size": [260, 420],
+      "description": "Yuliana, a sporty girl about 9 with a high ponytail, sneakers and a bike helmet, holding bike handlebars. Pose: standing relaxed, facing slightly to the viewer's left, full body, transparent background."
+    },
+    "yuliana_talk": {
+      "file": "characters/yuliana_talk.png",
+      "size": [260, 420],
+      "description": "Yuliana, a sporty girl about 9 with a high ponytail, sneakers and a bike helmet, holding bike handlebars. Pose: talking, mouth open, one hand (or paw/wing) raised in a gesture, same framing as idle, transparent background."
+    },
+    "maya_idle": {
+      "file": "characters/maya_idle.png",
+      "size": [260, 420],
+      "description": "Maya, a girl about 7 with glasses, holding a sketchbook and crayons. Pose: standing relaxed, facing slightly to the viewer's left, full body, transparent background."
+    },
+    "maya_talk": {
+      "file": "characters/maya_talk.png",
+      "size": [260, 420],
+      "description": "Maya, a girl about 7 with glasses, holding a sketchbook and crayons. Pose: talking, mouth open, one hand (or paw/wing) raised in a gesture, same framing as idle, transparent background."
+    },
+    "liliana_idle": {
+      "file": "characters/liliana_idle.png",
+      "size": [260, 420],
+      "description": "Liliana, a little girl about 4 with dark curls, hugging (or reaching for) a toy lamb. Pose: standing relaxed, facing slightly to the viewer's left, full body, transparent background."
+    },
+    "liliana_talk": {
+      "file": "characters/liliana_talk.png",
+      "size": [260, 420],
+      "description": "Liliana, a little girl about 4 with dark curls, hugging (or reaching for) a toy lamb. Pose: talking, mouth open, one hand (or paw/wing) raised in a gesture, same framing as idle, transparent background."
+    },
+    "irina_idle": {
+      "file": "characters/irina_idle.png",
+      "size": [320, 600],
+      "description": "Irina, a mum in a big sun hat and a colourful sarong. Pose: standing relaxed, facing slightly to the viewer's left, full body, transparent background."
+    },
+    "irina_talk": {
+      "file": "characters/irina_talk.png",
+      "size": [320, 600],
+      "description": "Irina, a mum in a big sun hat and a colourful sarong. Pose: talking, mouth open, one hand (or paw/wing) raised in a gesture, same framing as idle, transparent background."
+    },
+    "alexander_idle": {
+      "file": "characters/alexander_idle.png",
+      "size": [320, 600],
+      "description": "Alexander, a dad in sunglasses and swim shorts, holding diving fins. Pose: standing relaxed, facing slightly to the viewer's left, full body, transparent background."
+    },
+    "alexander_talk": {
+      "file": "characters/alexander_talk.png",
+      "size": [320, 600],
+      "description": "Alexander, a dad in sunglasses and swim shorts, holding diving fins. Pose: talking, mouth open, one hand (or paw/wing) raised in a gesture, same framing as idle, transparent background."
+    },
+    "timosha_idle": {
+      "file": "characters/timosha_idle.png",
+      "size": [260, 420],
+      "description": "Timosha, a boy about 6 with swim goggles pushed up on his forehead and an inflatable ring around his waist. Pose: standing relaxed, facing slightly to the viewer's left, full body, transparent background."
+    },
+    "timosha_talk": {
+      "file": "characters/timosha_talk.png",
+      "size": [260, 420],
+      "description": "Timosha, a boy about 6 with swim goggles pushed up on his forehead and an inflatable ring around his waist. Pose: talking, mouth open, one hand (or paw/wing) raised in a gesture, same framing as idle, transparent background."
+    },
+    "aunt_idle": {
+      "file": "characters/aunt_idle.png",
+      "size": [320, 600],
+      "description": "Dad's old aunt in Algeria: small, smiling elderly woman in a patterned headscarf and long embroidered dress, holding a cup of mint tea. Pose: standing relaxed, facing slightly to the viewer's left, full body, transparent background."
+    },
+    "aunt_talk": {
+      "file": "characters/aunt_talk.png",
+      "size": [320, 600],
+      "description": "Dad's old aunt in Algeria: small, smiling elderly woman in a patterned headscarf and long embroidered dress, holding a cup of mint tea. Pose: talking, mouth open, one hand (or paw/wing) raised in a gesture, same framing as idle, transparent background."
+    }
+  },
+  "items": {
+    "old_key": {
+      "file": "items/old_key.png",
+      "size": [128, 128],
+      "description": "Old bronze key with a little anchor on the bow. Single object, centred, transparent background."
+    },
+    "compass": {
+      "file": "items/compass.png",
+      "size": [128, 128],
+      "description": "Bronze compass disc with three empty ring grooves and a missing centre. Single object, centred, transparent background."
+    },
+    "map1": {
+      "file": "items/map1.png",
+      "size": [128, 128],
+      "description": "Torn piece of an old yellowed map (top-left corner) with a drawn ship. Single object, centred, transparent background."
+    },
+    "bone_whistle": {
+      "file": "items/bone_whistle.png",
+      "size": [128, 128],
+      "description": "Whistle carved in the shape of a dog bone, on a red string. Single object, centred, transparent background."
+    },
+    "boarding_pass": {
+      "file": "items/boarding_pass.png",
+      "size": [128, 128],
+      "description": "Colourful airline boarding pass with a little plane picture. Single object, centred, transparent background."
+    },
+    "blini": {
+      "file": "items/blini.png",
+      "size": [128, 128],
+      "description": "Stack of golden Russian pancakes (blini) on a plate with a dab of jam. Single object, centred, transparent background."
+    },
+    "diary_page": {
+      "file": "items/diary_page.png",
+      "size": [128, 128],
+      "description": "Old handwritten page from a family diary with a drawing of a stork and a cathedral. Single object, centred, transparent background."
+    },
+    "bretzel": {
+      "file": "items/bretzel.png",
+      "size": [128, 128],
+      "description": "Big golden Alsatian pretzel. Single object, centred, transparent background."
+    },
+    "map2": {
+      "file": "items/map2.png",
+      "size": [128, 128],
+      "description": "Torn piece of an old yellowed map (top-right corner) with a drawn mountain. Single object, centred, transparent background."
+    },
+    "map12": {
+      "file": "items/map12.png",
+      "size": [128, 128],
+      "description": "Two old map pieces joined together, with a drawn ship and mountain. Single object, centred, transparent background."
+    },
+    "belfry_key": {
+      "file": "items/belfry_key.png",
+      "size": [128, 128],
+      "description": "Big iron key with a little bell hanging on it. Single object, centred, transparent background."
+    },
+    "tapestry_photo": {
+      "file": "items/tapestry_photo.png",
+      "size": [128, 128],
+      "description": "Instant photo of a tapestry showing a golden compass with three rings. Single object, centred, transparent background."
+    },
+    "casbah_key": {
+      "file": "items/casbah_key.png",
+      "size": [128, 128],
+      "description": "Ornate blue-painted iron key. Single object, centred, transparent background."
+    },
+    "rope": {
+      "file": "items/rope.png",
+      "size": [128, 128],
+      "description": "Coil of sturdy rope. Single object, centred, transparent background."
+    },
+    "hook": {
+      "file": "items/hook.png",
+      "size": [128, 128],
+      "description": "Brass hook. Single object, centred, transparent background."
+    },
+    "rope_hook": {
+      "file": "items/rope_hook.png",
+      "size": [128, 128],
+      "description": "Rope tied to a brass hook (a climbing grapple). Single object, centred, transparent background."
+    },
+    "sun_ring": {
+      "file": "items/sun_ring.png",
+      "size": [128, 128],
+      "description": "Bronze ring engraved with suns, glowing warm gold. Single object, centred, transparent background."
+    },
+    "lamb": {
+      "file": "items/lamb.png",
+      "size": [128, 128],
+      "description": "Little fluffy toy lamb. Single object, centred, transparent background."
+    },
+    "drawing1": {
+      "file": "items/drawing1.png",
+      "size": [128, 128],
+      "description": "Left half of a child's crayon drawing of a mountain path. Single object, centred, transparent background."
+    },
+    "drawing2": {
+      "file": "items/drawing2.png",
+      "size": [128, 128],
+      "description": "Right half of a child's crayon drawing showing a cave and big footprints. Single object, centred, transparent background."
+    },
+    "maya_map": {
+      "file": "items/maya_map.png",
+      "size": [128, 128],
+      "description": "Whole crayon drawing joined with tape: a mountain path leading to a cave. Single object, centred, transparent background."
+    },
+    "moon_ring": {
+      "file": "items/moon_ring.png",
+      "size": [128, 128],
+      "description": "Silver ring engraved with crescent moons, a little bite mark on it. Single object, centred, transparent background."
+    },
+    "map3": {
+      "file": "items/map3.png",
+      "size": [128, 128],
+      "description": "Wet torn piece of the old map (bottom part) with a drawn star and waves. Single object, centred, transparent background."
+    },
+    "map_full": {
+      "file": "items/map_full.png",
+      "size": [128, 128],
+      "description": "The whole old map taped together: ship, mountain, star, and an X in the ocean. Single object, centred, transparent background."
+    },
+    "bananas": {
+      "file": "items/bananas.png",
+      "size": [128, 128],
+      "description": "Bunch of yellow bananas. Single object, centred, transparent background."
+    },
+    "star_ring": {
+      "file": "items/star_ring.png",
+      "size": [128, 128],
+      "description": "Bronze ring engraved with stars, sparkling. Single object, centred, transparent background."
+    },
+    "oil_can": {
+      "file": "items/oil_can.png",
+      "size": [128, 128],
+      "description": "Small oil can with a long thin spout. Single object, centred, transparent background."
+    },
+    "centre_disc": {
+      "file": "items/centre_disc.png",
+      "size": [128, 128],
+      "description": "Round bronze centre disc with a tiny golden arrow. Single object, centred, transparent background."
+    },
+    "compass_core": {
+      "file": "items/compass_core.png",
+      "size": [128, 128],
+      "description": "Bronze compass with its centre disc and arrow, rings still missing. Single object, centred, transparent background."
+    },
+    "compass_s": {
+      "file": "items/compass_s.png",
+      "size": [128, 128],
+      "description": "Compass with the Sun ring fitted. Single object, centred, transparent background."
+    },
+    "compass_sm": {
+      "file": "items/compass_sm.png",
+      "size": [128, 128],
+      "description": "Compass with the Sun and Moon rings fitted. Single object, centred, transparent background."
+    },
+    "compass_full": {
+      "file": "items/compass_full.png",
+      "size": [128, 128],
+      "description": "The complete Compass of Atlantis: bronze disc with Sun, Moon and Star rings, glowing. Single object, centred, transparent background."
+    },
+    "ticket": {
+      "file": "items/ticket.png",
+      "size": [128, 128],
+      "description": "Japanese train ticket with a little bullet-train picture. Single object, centred, transparent background."
+    }
+  },
+  "ui": {
+    "worldmap": {
+      "file": "ui/worldmap.jpg",
+      "size": [1280, 720],
+      "d": "Stylised old explorer's world map, equirectangular projection covering the whole world edge to edge (longitude -180..180 maps to x 0..1280, latitude 90..-90 maps to y 0..720) so city markers line up; parchment colours, little waves and a compass rose, no text."
+    },
+    "title": {
+      "file": "ui/title.jpg",
+      "size": [1280, 720],
+      "d": "Title illustration: Magna and Dad in front of a glowing bronze compass with three rings, the sea and a sunken city below, a plane above. Leave the centre-top third calmer for the game title text."
+    },
+    "ending": {
+      "file": "ui/ending.jpg",
+      "size": [1280, 720],
+      "d": "Ending: everyone at Grandma's big table in Moscow with blini and tea: Magna, Dad, Mum, Grandma, Snezhana, the Yeti (with his knitted hat), all six dogs, the friends from Yerevan and Phuket, and the soaked Baron with his crow. Warm evening, snow outside."
+    }
+  }
+}

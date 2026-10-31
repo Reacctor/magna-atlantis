@@ -340,6 +340,12 @@ function charHotspot(id) {
 }
 function clickChar(id) {
   const h = charHotspot(id);
+  // Tapping Snezhana herself (not only her portrait) arms her freeze power on levels where water is to be crossed.
+  if (id === 'snezhana' && lv.snez && !busy && !(h && !h.decor && !hsDone(h))) {
+    clearHintMarks(); selected = '@snez'; renderHeroes(); renderInv();
+    setSentence(T('ui.snez')); run([['snezhana', T('ui.snez').replace(/^Снежана: /, '')]]);
+    return;
+  }
   if (h) clickHotspot(h);
   else run([[id, T('look.char')[0][1]]]);
 }

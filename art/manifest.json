@@ -183,7 +183,7 @@
           "shows": "snowy fir trees with a lantern"
         },
         "lid": {
-          "rect": [290, 56, 280, 110],
+          "rect": [290, 90, 280, 130],
           "shows": "heavy round lid of ice on top of the fountain, with icicles in a repeating pattern"
         },
         "keyhole": {

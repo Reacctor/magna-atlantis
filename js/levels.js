@@ -173,7 +173,7 @@ const LEVELS = [
       { id: 'trees', r: [16, 56, 200, 290], decor: true },
       { id: 'baron', ch: 'baron', decor: true },
       { id: 'karkusha', ch: 'karkusha', decor: true },
-      { id: 'lid', r: [290, 56, 280, 110], hero: 'papa', puzzle: 'pattern2' },
+      { id: 'lid', r: [290, 90, 280, 130], hero: 'papa', puzzle: 'pattern2' },
       { id: 'keyhole', r: [330, 250, 200, 110], need: ['lid'], hero: 'magna', puzzle: 'add5' },
       { id: 'snezhana', ch: 'snezhana', need: ['keyhole'], goal: true },
     ] },

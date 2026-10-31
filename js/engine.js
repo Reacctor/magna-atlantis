@@ -287,7 +287,7 @@ function renderDynamic() {
   UI.hsLayer.innerHTML = '';
   for (const h of lv.hs) {
     if (!h.r || !hsVisible(h)) continue;
-    const d = el('div', 'hs' + (h.decor ? ' decor' : '') + (hsDone(h) ? ' done' : ''), null, UI.hsLayer);
+    const d = el('div', 'hs' + (h.decor ? ' decor' : '') + (hsDone(h) ? ' done' : '') + (h.r[1] < 90 ? ' near-top' : ''), null, UI.hsLayer);
     d.style.left = h.r[0] + 'px'; d.style.top = h.r[1] + 'px'; d.style.width = h.r[2] + 'px'; d.style.height = h.r[3] + 'px';
     el('span', 'hs-label', hsName(h), d);
     if (!h.decor && !hsDone(h)) el('span', 'spark', '✨', d);

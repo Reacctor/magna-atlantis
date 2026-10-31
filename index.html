@@ -43,7 +43,9 @@ button { font: inherit; color: inherit; cursor: pointer; touch-action: manipulat
 .scene:not(.art) ~ .hs-layer .hs.decor { outline-style: dotted; outline-color: #ffffff66; background: #ffffff10; }
 .scene:not(.art) ~ .hs-layer .hs.done { background: #4fd36a22; }
 .scene:not(.art) ~ .hs-layer .hs-label { display: block; position: absolute; left: 10px; top: 8px; right: 10px; font-size: 24px; font-weight: bold; color: #fff; text-shadow: 0 2px 3px #000; }
-.spark { position: absolute; right: -6px; top: -10px; font-size: 34px; animation: spark 1.6s ease-in-out infinite; pointer-events: none; }
+.spark { position: absolute; right: -6px; top: -10px; font-size: 46px; animation: spark 1.6s ease-in-out infinite; pointer-events: none;
+  filter: drop-shadow(0 0 4px #000) drop-shadow(0 0 10px #ffb000); }
+.hs.near-top .spark { top: 6px; right: 6px; }  /* keep the sparkle out from under the HUD bar */
 @keyframes spark { 0%, 100% { transform: scale(.75) rotate(0); opacity: .55; } 50% { transform: scale(1.1) rotate(20deg); opacity: 1; } }
 
 /* sprites */

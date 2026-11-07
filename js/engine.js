@@ -79,6 +79,20 @@ function buildUI() {
 
   UI.bSound.onclick = () => { S.sound = !S.sound; applySound(); save(); };
   UI.bHint.onclick = () => sceneHint();
+  // ⏩ «Папа поможет»: does the next step of the level for you (same path as the autotest), one press = one step.
+  UI.bHelp = el('button', 'tb help', '⏩', UI.top);
+  UI.bHelp.title = 'Папа поможет: сделать следующий шаг';
+  UI.bHelp.onclick = async () => {
+    if (busy) return;
+    const st = nextStep();
+    if (!st) return;
+    clearHintMarks();
+    if (st.kind === 'combine') { await clickItem(st.a); await clickItem(st.b); return; }
+    if (st.h.hero) hero = st.h.hero;
+    selected = st.h.freeze ? '@snez' : (st.h.item || null);
+    renderHeroes(); renderInv();
+    await clickHotspot(st.h);
+  };
   UI.bMenu.onclick = () => { if (!busy) showTitle(); };
   G.addEventListener && G.addEventListener('resize', fit);
   fit();
